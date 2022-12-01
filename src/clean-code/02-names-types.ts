@@ -61,7 +61,10 @@
   function BooksUrl(u: string) {
     throw new Error("Function not implemented.");
   }
-  function getBooksURL(u: string) {
+  function getBooksURL(url: string) {
+    throw new Error("Function not implemented.");
+  }
+  function getBooksByURL(url: string) {
     throw new Error("Function not implemented.");
   }
 
@@ -70,6 +73,9 @@
     throw new Error("Function not implemented.");
   }
   function getAreaSquare(s: number) {
+    throw new Error("Function not implemented.");
+  }
+  function getSquareArea(side: number) {
     throw new Error("Function not implemented.");
   }
 
